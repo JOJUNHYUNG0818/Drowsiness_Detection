@@ -10,10 +10,8 @@ import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myapplication.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -25,7 +23,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class SubActivity extends AppCompatActivity {
-    Button button1;
+    Button button5;
     private DatabaseReference mDatabase;
     private ArrayAdapter<String> mAdapter;
     private ArrayList<String> mDataList;
@@ -67,8 +65,8 @@ public class SubActivity extends AppCompatActivity {
             }
         });
 
-        button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        button5 = findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();

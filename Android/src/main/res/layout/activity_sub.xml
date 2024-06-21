@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"/>
-    <!--  RelativeLayout  -->
 
+    <!-- RelativeLayout -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -23,14 +24,16 @@
             android:layout_height="2dip"
             android:layout_marginTop="20dp"
             android:background="#AAAAAA"/>
-        <!--  SORT  -->
+
+        <!-- SORT -->
         <TextView
             android:id="@+id/text_sort"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/line1"/>
-        <!--  LINE  -->
+
+        <!-- LINE -->
         <CheckBox
             android:id="@+id/check_time"
             android:layout_width="wrap_content"
@@ -41,7 +44,8 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="-1dp"
             android:layout_toRightOf="@id/text_sort"
-            android:text="최근순" android:textSize="15dp"/>
+            android:text="최근순"
+            android:textSize="15dp" />
 
         <Button
             android:id="@+id/btn_select"
@@ -51,7 +55,7 @@
             android:layout_marginBottom="-50dp"
             android:layout_marginTop="27dp"
             android:background="#AFEEEE"
-            android:text="조회하기"/>
+            android:text="조회하기" />
 
         <View
             android:id="@+id/line2"
@@ -60,6 +64,8 @@
             android:layout_below="@+id/text_sort"
             android:layout_marginTop="20dp"
             android:background="#AAAAAA"/>
+
+
         <ScrollView
             android:id="@+id/scroll_view"
             android:layout_width="match_parent"
@@ -69,20 +75,25 @@
             android:fillViewport="true"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="8dp">
+
             <ListView
                 android:id="@+id/db_list_view"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"></ListView>
+
         </ScrollView>
-        <!--  Button 1  -->
+
+        <!-- Button 5 -->
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button5"
             android:layout_width="119dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="40dp"
             android:background="#800080"
-            android:text="뒤로가기"/>
+            android:text="뒤로가기" />
+
     </RelativeLayout>
+
 </LinearLayout>
