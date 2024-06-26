@@ -90,5 +90,24 @@ https://github.com/ljxxyxxg/AI_Project/assets/152591039/1ef58427-bbe8-4a86-9e20-
 ![코드구현](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/c18db118-faeb-4c85-a330-c74f5adc0a05)
 
 
+## 2차 업데이트 ( 교통사고 정보 가져오기 //Open API )
+## Android Studio 
+**-- Retrofit로 Key값 전달해 실시간 교통사고 정보 Json 파일로 가져옴 --**
+
+![중요코드2](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/035547bf-0ef4-4ae4-be67-52da1a5de203)
+
+**-- 교통사고 Json 파일 --**
+
+![json오픈api](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/8fe6e320-576d-43e9-a87a-7ab5ccf3d381)
+
+**-- Android Studio로 Json 읽어 주는 코드 구현 --**
+
+![중요코드3](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/eb61e43d-85b0-4183-b911-e726da8d579b)
+
+**-- 앱 실행화면 --**
+
+![오픈api 사고정보](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/02f4a1ae-4ef9-4a27-b9fc-7d040efb6869)
+
+
 
 
