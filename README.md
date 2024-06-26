@@ -75,7 +75,19 @@ https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
 https://github.com/ljxxyxxg/AI_Project/assets/152591039/1ef58427-bbe8-4a86-9e20-34dda87ce604
 
 
+## 1차 업데이트 ( 운전시간 타이머 추가 )
+**-- 운전 시작전 상태 --**
 
+![운전시간(전)](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/a4b910e9-5c1c-4166-90a0-2247dce6a1de)
+
+
+**-- 운전 시작후 상태 --**
+
+![운전시간(후)](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/17d8e5f7-0710-4f6e-b672-dc04eef0d713)
+
+**-- 추가 코드 --**
+
+![코드구현](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/c18db118-faeb-4c85-a330-c74f5adc0a05)
 
 
 
